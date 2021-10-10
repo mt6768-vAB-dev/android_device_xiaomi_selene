@@ -66,6 +66,10 @@ BOARD_VENDOR := xiaomi
 TARGET_BOOTLOADER_BOARD_NAME := selene
 TARGET_NO_BOOTLOADER := true
 
+# Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_xiaomi_selene
+TARGET_RECOVERY_DEVICE_MODULES := libinit_xiaomi_selene
+
 # Kernel
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
