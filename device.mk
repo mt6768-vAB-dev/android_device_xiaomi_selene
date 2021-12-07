@@ -10,6 +10,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Include GSI keys
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
+# A/B
+PRODUCT_PACKAGES += \
+    android.hardware.boot@1.1-service \
+    android.hardware.boot@1.1-mtkimpl \
+    android.hardware.boot@1.1-mtkimpl.recovery
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio.service \
