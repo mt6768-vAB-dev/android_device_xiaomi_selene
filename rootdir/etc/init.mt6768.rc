@@ -1264,5 +1264,6 @@ service mi_thermald /vendor/bin/mi_thermald
     user root
     group system
     seclabel u:r:mi_thermald:s0
+
 on property:odm.audio.typec.status=*
     setprop vendor.audio.typec.status ${odm.audio.typec.status}
