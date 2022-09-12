@@ -350,6 +350,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libutils-v32
 
+# Vibrator
+PRODUCT_PACKAGES += \
+    android.hardware.vibrator-service.mediatek
+
 # Wi-Fi
 PRODUCT_PACKAGES += \
     android.hardware.wifi.supplicant@1.0.vendor \
