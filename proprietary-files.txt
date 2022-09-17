@@ -1063,7 +1063,7 @@ vendor/bin/wmt_loader
 vendor/etc/init/android.hardware.wifi.supplicant-service.rc
 -vendor/etc/vintf/manifest/manifest.xml:vendor/etc/vintf/manifest/wpa_supplicant.xml
 -vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml
-vendor/lib64/libwifi-hal.so
+-vendor/lib64/libwifi-hal.so:vendor/lib64/libwifi-hal-mtk.so
 
 # Misc
 vendor/bin/128GB_FW_HW_forFFU.BIN
