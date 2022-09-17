@@ -1694,7 +1694,6 @@ vendor/lib64/libcustom_nvram.so
 vendor/lib64/libcvsd_mtk.so
 vendor/lib64/libdecrypt.so
 vendor/lib64/libDefaultFpsActor.so
-vendor/lib64/libdng_sdk.so
 vendor/lib64/libdpframework.so
 vendor/lib64/libeffecthal.base.so
 vendor/lib64/libfeature.face.so
