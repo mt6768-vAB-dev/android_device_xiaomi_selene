@@ -217,7 +217,8 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_PACKAGES += \
     WifiOverlay \
-    TetheringConfigOverlay
+    TetheringConfigOverlay \
+    CarrierConfigOverlaySelene
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
