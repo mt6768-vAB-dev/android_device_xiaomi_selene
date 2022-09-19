@@ -1,0 +1,12 @@
+##################################
+#
+#add for fpc fingerprints
+#
+##################################
+#K19A code for HQ-138923 by shicheng at 2021.6.11 start
+#single click
+key  353    DPAD_CENTER  VIRTUAL
+
+#double click
+key  306    BUTTON_C     VIRTUAL
+#K19A code for HQ-138923 by shicheng at 2021.6.11 end

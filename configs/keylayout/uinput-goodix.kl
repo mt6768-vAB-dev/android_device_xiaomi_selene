@@ -1,0 +1,12 @@
+##################################
+#
+#add for goodix fingerprints
+#
+##################################
+#K19A code for HQ-135916 by shicheng at 2021.5.31 start
+#single click
+key  353    DPAD_CENTER  VIRTUAL
+
+#double click
+key  306    BUTTON_C     VIRTUAL
+#K19A code for HQ-135916 by shicheng at 2021.5.31 end
