@@ -585,7 +585,7 @@ vendor/etc/camera/model/rt_model/score/segment_model
 vendor/etc/camera/sr_params.xml
 
 # Camera-Utils - selene V13.0.10.0.SKUMIXM
-vendor/lib64/libmtkcam_stdutils.so|1e800f54452dcd813967df5d22ed70e7553c18d4
+vendor/lib64/libmtkcam_stdutils.so|1e800f54452dcd813967df5d22ed70e7553c18d4|73d2a75d63a8e8663c2e0b265f6e0821d2e70377
 
 # Consumerir
 vendor/lib64/hw/consumerir.mt6768.so
