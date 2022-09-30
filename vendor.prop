@@ -23,6 +23,7 @@ ro.vendor.mtk.bt_sap_enable=true
 
 # Camera
 camera.disable_zsl_mode=1
+vendor.camera.aux.packageexcludelist=org.telegram.messenger,org.thunderdog.challegram
 persist.vendor.camera3.pipeline.bufnum.base.imgo=4
 persist.vendor.camera3.pipeline.bufnum.base.lcso=4
 persist.vendor.camera3.pipeline.bufnum.base.rrzo=4
