@@ -89,6 +89,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libdng_sdk.vendor
 
+PRODUCT_PACKAGES += \
+    libshim_watermark
+
 # Charger
 PRODUCT_PACKAGES += \
     libsuspend
