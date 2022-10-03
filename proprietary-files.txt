@@ -3,6 +3,7 @@
 # Audio
 vendor/lib64/libaudiocompensationfilterc.so
 vendor/lib64/libaudiocompensationfilter_vendor.so
+vendor/lib64/libalsautils.so:vendor/lib64/libalsautils-v30.so
 vendor/lib64/libaudiocomponentenginec.so
 vendor/lib64/libaudiocomponentengine_vendor.so
 vendor/lib64/libaudiocustparam_vendor.so
@@ -26,6 +27,7 @@ vendor/lib/libaudiofoundation.so
 vendor/lib/libaudioloudc.so
 vendor/lib/libaudio_param_parser-vnd.so
 vendor/lib/libaudioprimarydevicehalifclient.so
+vendor/lib/libalsautils.so:vendor/lib/libalsautils-v30.so
 vendor/lib/libaudiotoolkit_vendor.so
 vendor/lib/soundfx/libaudiopreprocessing_mtk.so
 vendor/lib/soundfx/libaudiopreprocessing.so
