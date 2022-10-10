@@ -279,7 +279,7 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service-mediatek
+    android.hardware.power-service-V1-mediatek
 
 PRODUCT_PACKAGES += \
     android.hardware.power@1.0.vendor \
