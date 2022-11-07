@@ -552,6 +552,12 @@ vendor/lib64/libarcsoft_supernight.so
 # Camera-bin
 vendor/bin/hw/camerahalserver
 
+# Charger
+bin/kpoc_charger
+etc/init/kpoc_charger.rc
+lib/libshowlogo.so
+lib/libsysenv_system.so
+
 # Camera-configs
 vendor/etc/camera/CFR_para_UW.bin
 vendor/etc/camera/com.xiaomi.dcal.wd.golden
