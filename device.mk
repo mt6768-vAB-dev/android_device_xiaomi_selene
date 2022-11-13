@@ -239,6 +239,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
+# Pcap
+PRODUCT_PACKAGES += \
+    libpcap.vendor
+
 # Properties
 include $(LOCAL_PATH)/vendor_logtag.mk
 
