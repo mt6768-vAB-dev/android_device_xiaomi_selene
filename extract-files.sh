@@ -63,10 +63,10 @@ function blob_fixup {
             ;;
         vendor/lib*/hw/audio.primary.mt6768.so)
             "${PATCHELF}" --add-needed "libshim_audio.so" "${2}"
-            "${PATCHELF}" --replace-needed "libalsautils.so" "libalsautils-v30.so" "${2}"
+            "${PATCHELF}" --replace-needed "libalsautils.so" "libalsautils_legacy.so" "${2}"
             ;;
         vendor/lib*/hw/audio.usb.mt6768.so)
-            "${PATCHELF}" --replace-needed "libalsautils.so" "libalsautils-v30.so" "${2}"
+            "${PATCHELF}" --replace-needed "libalsautils.so" "libalsautils_legacy.so" "${2}"
 	    ;;
         vendor/lib*/hw/dfps.mt6768.so)
             "${PATCHELF}" --replace-needed "libutils.so" "libutils-v32.so" "${2}"
