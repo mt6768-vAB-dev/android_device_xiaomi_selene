@@ -75,7 +75,7 @@ function blob_fixup {
             "${PATCHELF}" --replace-needed "libutils.so" "libutils-v32.so" "${2}"
             ;;
 	vendor/lib64/libmi_watermark.so)
-            "${PATCHELF}" --add-needed "libshim_watermark.so" "${2}"
+            "${PATCHELF}" --add-needed "libpiex_shim.so" "${2}"
             ;;
         vendor/lib64/libcam.halsensor.so)
             "${PATCHELF}" --add-needed "libshim_utils.so" "${2}"
