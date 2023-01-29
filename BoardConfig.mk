@@ -65,6 +65,9 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz
 # Platform
 TARGET_BOARD_PLATFORM := mt6768
 
+# Recovery
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mt6768
+
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
 
