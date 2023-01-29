@@ -16,6 +16,14 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.1-mtkimpl \
     android.hardware.boot@1.1-mtkimpl.recovery
 
+PRODUCT_PACKAGES += \
+    update_engine \
+    update_engine_sideload \
+    update_verifier
+
+PRODUCT_PACKAGES_DEBUG += \
+    update_engine_client
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio.service \
