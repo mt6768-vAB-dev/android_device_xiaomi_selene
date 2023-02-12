@@ -1567,7 +1567,6 @@ vendor/lib64/libthha.so
 vendor/lib64/libtlcWidevineModularDrm.so
 vendor/lib64/libtranslator_mapi_v3.0.so
 vendor/lib64/libtranslator_utils.so
-vendor/lib64/libudf.so
 vendor/lib64/liburee_meta_drmkeyinstall.so
 vendor/lib64/libutinterface_custom_md.so
 vendor/lib64/libutinterface_md.so
@@ -1724,7 +1723,6 @@ vendor/lib/libthha.so
 vendor/lib/libtlcWidevineModularDrm.so
 vendor/lib/libtranslator_mapi_v3.0.so
 vendor/lib/libtranslator_utils.so
-vendor/lib/libudf.so
 vendor/lib/liburee_meta_drmkeyinstall.so
 vendor/lib/libutinterface_custom_md.so
 vendor/lib/libutinterface_md.so
@@ -1858,6 +1856,10 @@ vendor/lib64/hw/thermal.mt6768.so
 vendor/lib/hw/thermal.mt6768.so
 
 # Time
+
+# UDF - From selene V13.0.10.0.SKUMIXM
+vendor/lib/libudf.so|7cdbb5c5c616dbbec6afcd75d5cc41f915ff82d6
+vendor/lib64/libudf.so|66324571c3f69057b250bce3b0d58c386da0c25b
 
 # WiFi
 bin/iwpriv
