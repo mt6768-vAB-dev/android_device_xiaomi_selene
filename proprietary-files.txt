@@ -594,12 +594,8 @@ vendor/lib/hw/consumerir.mt6768.so
 # Display-Hardware
 vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek
 vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc
-vendor/lib64/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so
-vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so
 vendor/lib64/hw/hwcomposer.mt6768.so
 vendor/lib64/hw/memtrack.mt6768.so
-vendor/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so
-vendor/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so
 vendor/lib/hw/memtrack.mt6768.so
 
 # DRM
@@ -733,6 +729,14 @@ vendor/lib/egl/libMEOW_gift.so
 vendor/lib/egl/libMEOW_trace.so
 vendor/lib/hw/vulkan.mt6768.so
 vendor/lib/libOpenCL.so
+
+# Graphics-Allocator - From selene V13.0.10.0.SKUMIXM
+vendor/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so|76ad23cf369d57c4e54b343a34db5857ea2af3ee
+vendor/lib64/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so|fcd8bb4a81e0325976121558bd8fec691e68c54e
+
+# Graphics-Mapper - From selene V13.0.10.0.SKUMIXM
+vendor/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so|f9a1c4433877187d2a221b5737080bda49663f21
+vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so|bef0c783e7a56a318d07f7a18c0a8b5d235be44c
 
 # IMS-System
 bin/vtservice
