@@ -622,7 +622,7 @@ vendor/lib/libwvhidl.so
 vendor/lib/mediadrm/libwvdrmengine.so
 
 # Fingerprint
-vendor/lib64/hw/fingerprint.default.so
+vendor/lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.selene.so
 vendor/lib64/hw/gf_fingerprint.default.so
 vendor/lib64/libgf_ca.so
 vendor/lib64/libgf_hal.so
