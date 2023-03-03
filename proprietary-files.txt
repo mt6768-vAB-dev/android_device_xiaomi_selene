@@ -1434,6 +1434,7 @@ vendor/etc/virtual-spn-conf-by-efgid1.xml
 vendor/etc/virtual-spn-conf-by-efpnn.xml
 vendor/etc/virtual-spn-conf-by-efspn.xml
 vendor/etc/virtual-spn-conf-by-imsi.xml
+vendor/lib64/arm.graphics-V1-ndk_platform.so
 vendor/lib64/AVCSecureVdecCA.so
 vendor/lib64/gc02m1b_sunny_mipi_raw_IdxMgr.so
 vendor/lib64/gc02m1b_sunny_mipi_raw_india_IdxMgr.so
