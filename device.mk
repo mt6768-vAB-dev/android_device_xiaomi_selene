@@ -117,6 +117,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libshim_showlogo
 
+# Display
+TARGET_SCREEN_DENSITY := 440
+TARGET_SCREEN_WIDTH := 1080
+TARGET_SCREEN_HEIGHT := 2340
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.4-service.clearkey
