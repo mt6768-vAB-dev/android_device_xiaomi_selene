@@ -4,9 +4,9 @@
     <item
         name="ambient.on">0.1</item>
     <item
-        name="screen.on">95.5</item>
+        name="screen.on.display0">95.5</item>
     <item
-        name="screen.full">321.02</item>
+        name="screen.full.display0">321.02</item>
     <item
         name="bluetooth.active">63.81</item>
     <item
