@@ -249,13 +249,19 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(DEVICE_PATH)/overlay \
     $(DEVICE_PATH)/overlay-lineage
 
+# RRO Overlays
 PRODUCT_PACKAGES += \
-    WifiOverlay \
-    TetheringConfigOverlay \
-    CarrierConfigOverlaySelene
+    SettingsProviderOverlaySelene \
+    CarrierConfigOverlay \
+    SystemUIOverlaySelene \
+    DialerOverlaySelene \
+    TelephonyOverlaySelene \
+    FrameworksResOverlaySelene \
+    TetheringResOverlaySelene \
+    SettingsOverlaySelene \
+    WifiResOverlaySelene
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
