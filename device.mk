@@ -251,6 +251,9 @@ PRODUCT_COPY_FILES += \
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay-lineage
 
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
+    $(DEVICE_PATH)/overlay-lineage
+
 # RRO Overlays
 PRODUCT_PACKAGES += \
     SettingsProviderOverlaySelene \
