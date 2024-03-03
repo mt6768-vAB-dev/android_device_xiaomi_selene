@@ -617,9 +617,7 @@ vendor/lib64/liboemcrypto.so
 # Display-Hardware
 vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek
 vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc
-vendor/lib/hw/memtrack.mt6768.so
 vendor/lib64/hw/hwcomposer.mt6768.so
-vendor/lib64/hw/memtrack.mt6768.so
 
 # Fingerprint
 vendor/lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.selene.so
