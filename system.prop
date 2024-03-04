@@ -1,9 +1,5 @@
 # Audio
 ro.audio.silent=0
-ro.vendor.audio.game.effect=true
-ro.vendor.audio.sos=true
-ro.vendor.audio.soundfx.type=mi
-ro.vendor.audio.soundfx.usb=true
 ro.config.vc_call_vol_steps=9
 
 # Brand
