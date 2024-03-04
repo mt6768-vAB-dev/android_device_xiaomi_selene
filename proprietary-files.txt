@@ -753,7 +753,7 @@ vendor/lib64/libOpenCL.so
 -framework/mediatek-telecom-common.jar
 -framework/mediatek-telephony-base.jar
 -framework/mediatek-telephony-common.jar
--priv-app/ImsService/ImsService.apk
+-priv-app/ImsService/ImsService.apk|3e619e708d79609c94b455cd5a7cd92579e53646
 bin/vtservice
 etc/apns-conf.xml:product/etc/apns-conf.xml
 etc/init/init.vtservice.rc
