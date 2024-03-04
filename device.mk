@@ -269,9 +269,9 @@ PRODUCT_PACKAGES += \
     DialerOverlaySelene \
     TelephonyOverlaySelene \
     FrameworksResOverlaySelene \
-    TetheringResOverlaySelene \
+    TetheringConfigOverlaySelene \
     SettingsOverlaySelene \
-    WifiResOverlaySelene
+    WifiOverlaySelene
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
