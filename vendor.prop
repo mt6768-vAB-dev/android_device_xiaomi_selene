@@ -48,7 +48,6 @@ persist.vendor.camera3.pipeline.bufnum.min.low_ram.imgo=6
 persist.vendor.camera3.pipeline.bufnum.min.low_ram.lcso=6
 persist.vendor.camera3.pipeline.bufnum.min.low_ram.rrzo=6
 persist.vendor.camera3.pipeline.bufnum.min.low_ram.rsso=6
-ro.mtk_cam_stereo_camera_support=1
 ro.vendor.camera3.zsl.default=140
 ro.vendor.mtk_camera_app_version=3
 ro.vendor.mtk_slow_motion_support=1
@@ -74,17 +73,12 @@ ro.crypto.volume.options=::v2
 
 # Display
 persist.sys.mcd_config_file=/system/etc/mcd_default.conf
-config.svi.path=/system/etc/SVIConfig.xml
-config.svi.xml=1
-config.svi.xml.print=1
 ro.opengles.version=196610
 ro.hardware.egl=mali
 ro.vendor.mtk_pq_color_mode=1
 ro.vendor.mtk_pq_support=2
 ro.vendor.mtk_aal_support=1
 ro.vendor.mtk_blulight_def_support=1
-debug.als.logs=1
-debug.svi.logs=1
 ro.vendor.display.svi=1
 ro.vendor.display.sensortype=2
 vendor.display.svi.config=1
@@ -93,9 +87,6 @@ persist.vendor.max.brightness=462
 ro.vendor.colorpick_adjust=true
 ro.vendor.all_modes.colorpick_adjust=true
 ro.vendor.cabc.enable=true
-debug.hwui.renderer=skiagl
-debug.renderengine.backend=skiaglthreaded
-renderthread.skia.reduceopstasksplitting=true
 
 # FM Radio
 ro.vendor.builtin_fm_antenna_support=1
@@ -170,7 +161,6 @@ ro.vendor.mtk_exchange_support=1
 persist.radio.multisim.config=dsds
 persist.vendor.radio.msimmode=dsds
 ro.vendor.radio.max.multisim=dsds
-ro.telephony.sim.count=2
 telephony.active_modems.max_count=2
 persist.vendor.radio.fd.counter=150
 persist.vendor.radio.fd.off.counter=50
@@ -245,7 +235,6 @@ ro.vendor.mtk_tee_gp_support=1
 ro.hardware.gatekeeper=beanpod
 ro.hardware.kmsetkey=beanpod
 ro.hardware.wechat=beanpod
-ro.mtk_key_manager_support=1
 
 # Wifi
 persist.vendor.connsys.chipid=-1

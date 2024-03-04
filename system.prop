@@ -8,9 +8,17 @@ Build.BRAND=MTK
 # Camera
 ro.camera.sound.forced=0
 persist.camera.dualcal.state=-1
+ro.mtk_cam_stereo_camwra_support=1
 
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
+
+# Display
+config.svi.path=/system/etc/SVIConfig.xml
+debug.svi.logs=1
+debug.als.logs=1
+config.svi.xml=1
+config.svi.xml.print=1
 
 # FM Radio
 persist.internalAntenna.enable=false
@@ -20,6 +28,9 @@ persist.sys.fuse.passthrough.enable=true
 
 # GPU
 ro.opengles.version=196610
+debug.hwui.renderer=skiagl
+debug.renderengine.backend=skiaglthreaded
+renderthread.skia.reduceopstasksplitting=true
 
 # Iorapd
 ro.iorapd.enable=false
@@ -37,6 +48,9 @@ sys.ipo.pwrdncap=2
 # Logging
 persist.sys.mdlog_dumpback=2
 
+# MIUI
+persist.miui.extm.enable=1
+
 # Perf
 ro.mtk_perf_fast_start_win=1
 ro.mtk_perf_response_time=1
@@ -45,6 +59,10 @@ ro.mtk_perf_simple_start_win=1
 # RIL
 vendor.rild.libargs=-d /dev/ttyC0
 vendor.rild.libpath=mtk-ril.so
+ro.telephony.sim.count=2
+
+# TEE
+ro.mtk_key_manager_support=1
 
 # USB
 persist.vendor.otg_control=true
