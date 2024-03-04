@@ -1138,7 +1138,6 @@ vendor/bin/volte_md_status
 vendor/bin/volte_stack
 vendor/bin/volte_ua
 vendor/bin/vpud
-vendor/bin/vsimd
 vendor/bin/watch
 vendor/bin/wfca
 vendor/data/misc/ProjectConfig.mk
@@ -1741,7 +1740,6 @@ vendor/lib64/libvcodec_oal.so
 vendor/lib64/libverno.so
 vendor/lib64/libvia-ril.so
 vendor/lib64/libvideofilter_only.so
-vendor/lib64/libvsim.so
 vendor/lib64/libwa_dof.so
 vendor/lib64/libwa_rtdof.so
 vendor/lib64/libwapi.so
@@ -1839,7 +1837,6 @@ vendor/libnfc-nxp_RF.conf
 # QMI
 
 # Radio
-vendor/lib/libvsim.so
 
 # Sensors
 vendor/lib64/hw/sensors.mt6768.so
