@@ -1898,3 +1898,4 @@ vendor/bin/wlan_assistant
 vendor/bin/wmt_launcher
 vendor/bin/wmt_loader
 vendor/etc/init/android.hardware.wifi.supplicant-service.rc
+vendor/etc/init/hostapd.android.rc
